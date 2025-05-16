@@ -1,16 +1,69 @@
-# gasapp
+# 🚗 GasApp
 
-A new Flutter project.
+Aplicativo Flutter para calcular o gasto com combustível em uma viagem.
 
-## Getting Started
+## 📱 Sobre o Projeto
 
-This project is a starting point for a Flutter application.
+O **GasApp** é um aplicativo simples desenvolvido como método de aprendizagem em Flutter.
+Ele permite que o usuário calcule o custo total de combustível para uma viagem, fornecendo informações como distância, consumo médio do veículo e preço do combustível.
 
-A few resources to get you started if this is your first Flutter project:
+## 🧭 Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Entrada de distância a ser percorrida (em km).
+- Entrada do consumo médio do veículo (km/l).
+- Entrada do preço do combustível (R$/l).
+- Cálculo do custo total da viagem com base nos dados fornecidos.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Estrutura de Pastas
+
+O projeto segue a estrutura padrão de um aplicativo Flutter:
+
+```
+flutter-new/
+├── android/        # Código específico para a plataforma Android
+├── ios/            # Código específico para a plataforma iOS
+├── lib/            # Código Dart principal do aplicativo
+│   └── main.dart   # Ponto de entrada do aplicativo
+├── test/           # Testes unitários e de widget
+├── web/            # Código específico para a plataforma Web
+├── windows/        # Código específico para a plataforma Windows
+├── macos/          # Código específico para a plataforma macOS
+├── linux/          # Código específico para a plataforma Linux
+├── pubspec.yaml    # Arquivo de configuração do projeto e dependências
+└── README.md       # Documentação do projeto
+```
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/DavidSFreire/flutter-new.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd flutter-new
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Execute o aplicativo:
+
+   ```bash
+   flutter run
+   ```
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
